@@ -1,6 +1,7 @@
 html {
     font-size: 10px;
     font-family: 'Comforter', cursive;
+    background: rgb(154, 154, 154);
 }
 h1 {
     text-align: center;
@@ -14,3 +15,51 @@ h1 {
     display: inline-block;
     outline: 1px solid black;
 }
+.controls {
+    display: flex;
+    justify-content: space-around;
+}
+.btn {
+    font-size: 2.5rem;
+    font-family: 'Comforter', cursive;
+    background: black;
+    color: white;
+}
+input[type="range"]{
+    -webkit-appearance:none;
+    width:160px;
+    height:20px;
+    margin:10px 50px;
+    background: linear-gradient(to right, #9A2720 0%, #9A2720 100%);
+    background-size:150px 10px;
+    background-position:center;
+    background-repeat:no-repeat;
+    overflow:hidden;
+    outline: none;
+  }
+  
+  input[type="range"]:first-of-type{
+    margin-top:30px;
+  }
+  
+  input[type="range"]::-webkit-slider-thumb{
+    -webkit-appearance:none;
+    width:20px;
+    height:20px;
+    background:#F26B5E;
+    position:relative;
+    z-index:3;
+    box-shadow:0 0 5px 0 rgba(0,0,0,0.3);
+  }
+  
+  input[type="range"]::-webkit-slider-thumb:after{
+    content:" ";
+    width:160px;
+    height:10px;
+    position:absolute;
+    z-index:1;
+    right:20px;
+    top:5px;
+    background: #ff5b32;
+    background: linear-gradient(to right, #f088fc 1%, #AC6CFF 70%);
+  }
