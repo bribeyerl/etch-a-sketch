@@ -10,7 +10,7 @@ h1 {
     height: 960px;
     width: 960px;
 }
-.grid {
+.box {
     display: inline-block;
     outline: 1px solid black;
 }

@@ -1,9 +1,12 @@
-function addGrid(x) {
-    for (let rows = 0; rows < x; rows++) {
-        for (let columns = 0; columns < x; columns++) {
-            $('.container').append('<div class="grid"></div>')
-        }
+const grid = document.querySelector('.container')
+
+addGrid = () => {
+    for (let i = 0; i < 256; i++) {
+        const div = document.createElement('div')
+        div.classList.add('box')
+        div.addEventListener('mouseover', function(event) {
+            event.target.style.backgroundColor = 'black'
+        })
+        grid.appendChild(div)
     }
-    $('.grid').width(960/x)
-    $('.grid').height(960/x)
 }
