@@ -1,0 +1,16 @@
+html {
+    font-size: 10px;
+    font-family: 'Comforter', cursive;
+}
+h1 {
+    text-align: center;
+    font-size: 5rem;
+}
+.container {
+    height: 960px;
+    width: 960px;
+}
+.grid {
+    display: inline-block;
+    outline: 1px solid black;
+}
