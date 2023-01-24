@@ -7,20 +7,28 @@ h1 {
     text-align: center;
     font-size: 5rem;
 }
+/* Layout */
+.app {
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+}
 .container {
     display: inline-grid;
     grid-template-columns: repeat(16, 2fr);
     grid-template-rows: repeat(16, 2fr);
-    height: 960px;
-    width: 960px;
-}
-.box {
-    background: white;
-    border: 1px solid black;
+    height: 700px;
+    width: 700px;
 }
 .controls {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    gap: 10%;
+}
+/* Other styling */
+.box {
+    background: white;
+    border: 1px solid black;
 }
 .btn {
     font-size: 2.5rem;
