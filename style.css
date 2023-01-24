@@ -1,12 +1,10 @@
+/* Main style */
 html {
     font-size: 10px;
     font-family: 'Comforter', cursive;
-    background: rgb(154, 154, 154);
+    background: rgb(199, 199, 199);
 }
-h1 {
-    text-align: center;
-    font-size: 5rem;
-}
+
 /* Layout */
 .app {
     display: flex;
@@ -27,8 +25,14 @@ h1 {
 }
 .sizerGroup {
     display: flex;
+    align-items: baseline;
+    padding-right: 8%;
 }
 /* Other styling */
+h1 {
+    text-align: center;
+    font-size: 5rem;
+}
 .box {
     background: white;
     border: 1px solid black;
@@ -47,7 +51,7 @@ input[type="range"]{
     width:160px;
     height:20px;
     margin:10px 50px;
-    background: linear-gradient(to right, #9A2720 0%, #9A2720 100%);
+    background: linear-gradient(to right, rgb(94, 94, 94) 0%, rgb(94, 94, 94) 100%);
     background-size:150px 10px;
     background-position:center;
     background-repeat:no-repeat;
@@ -63,7 +67,7 @@ input[type="range"]{
     -webkit-appearance:none;
     width:20px;
     height:20px;
-    background:#F26B5E;
+    background: rgb(129, 129, 129);
     position:relative;
     z-index:3;
     box-shadow:0 0 5px 0 rgba(0,0,0,0.3);
@@ -77,6 +81,6 @@ input[type="range"]{
     z-index:1;
     right:20px;
     top:5px;
-    background: #ff5b32;
-    background: linear-gradient(to right, #f088fc 1%, #AC6CFF 70%);
+    background: rgb(129, 129, 129);
+    background: linear-gradient(to right, rgb(229, 229, 229) 1%, rgb(229, 229, 229) 70%);
   }
