@@ -84,3 +84,12 @@ input[type="range"]{
     background: rgb(129, 129, 129);
     background: linear-gradient(to right, rgb(229, 229, 229) 1%, rgb(229, 229, 229) 70%);
   }
+  footer {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 3%;
+  }
+  a:link, a:visited {
+    color: black;
+  }
