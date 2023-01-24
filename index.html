@@ -4,11 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comforter&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Sketch-And-Skribble</title>
 </head>
 <body>
-    
+    <h1>Sketch-And-Skribble</h1>
+    <section class="app">
+        <section class="controls">
+            <button class="btn" id="clear">Clear</button>
+            <button class="btn" id="black">Black</button>
+            <button class="btn" id="rainbow">Rainbow</button>
+            <section class="sizerGroup">
+                <input type="range" min="2" max="100" value="16" id="sizer">
+                <p class="value">16</p>
+            </section>
+        </section>
+        <section>
+            <div class="container"></div>
+        </section>
+    </section>
+
     <script src="main.js"></script>
 </body>
+<footer>
+    <span><a href="https://github.com/bribeyerl" target="_blank">Bria Idler | 2023</a></span>
+</footer>
 </html>
