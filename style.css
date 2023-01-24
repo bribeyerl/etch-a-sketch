@@ -8,12 +8,15 @@ h1 {
     font-size: 5rem;
 }
 .container {
+    display: inline-grid;
+    grid-template-columns: repeat(16, 2fr);
+    grid-template-rows: repeat(16, 2fr);
     height: 960px;
     width: 960px;
 }
 .box {
-    display: inline-block;
-    outline: 1px solid black;
+    background: white;
+    border: 1px solid black;
 }
 .controls {
     display: flex;
