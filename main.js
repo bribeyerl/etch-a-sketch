@@ -32,7 +32,7 @@ function getRandomColor() {
 }
 
 resize.addEventListener('input', function() {
-    let displayVal = document.getElementById(sizer).value
+    let displayVal = document.getElementById('sizer').value
     newSize.textContent = displayVal
     removeAllChildNodes(grid)
     grid.setAttribute('style', `grid-template-columns: repeat(${displayVal}, 2fr); grid-template-rows: repeat(${displayVal}, 2fr);`)

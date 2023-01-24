@@ -25,6 +25,9 @@ h1 {
     flex-direction: column;
     gap: 10%;
 }
+.sizerGroup {
+    display: flex;
+}
 /* Other styling */
 .box {
     background: white;
@@ -35,6 +38,9 @@ h1 {
     font-family: 'Comforter', cursive;
     background: black;
     color: white;
+}
+.value {
+    font-size: 3rem;
 }
 input[type="range"]{
     -webkit-appearance:none;
